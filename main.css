@@ -1,0 +1,116 @@
+.s-main .container {
+  display: flex;
+  gap: 2.8rem;
+  margin-bottom: 10rem;
+}
+
+.s-main .container .left {
+  align-self: end;
+}
+
+.s-main .container .left p {
+  margin-bottom: 17.9rem;
+}
+
+.s-main .container .left .icon-mouse {
+  width: 100%;
+  max-width: 5.5rem;
+}
+
+.s-main .container .right {
+  width: 100%;
+  max-width: 68rem;
+}
+
+.s-cards {
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  padding: 6.4rem 0;
+}
+
+.s-cards .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.s-contact {
+  display: flex;
+  align-items: center;
+  background: url(./assets/bg-stars.svg) no-repeat right;
+  background-size: contain;
+  padding: 9.5rem 0;
+}
+
+.s-contact .container .form {
+  width: 100%;
+  max-width: 595px;
+}
+
+.s-contact .container .form h2 {
+  margin-bottom: 30px;
+}
+
+.s-contact .container .form .info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer {
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  padding: 3.2rem 0;
+  text-align: center;
+}
+
+.footer p {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+/* ===== media screen ===== */
+
+@media (max-width: 1200px) {
+  .s-contact {
+    background: none;
+  }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 850px) {
+  /* ===== S-MAIN ===== */
+  .s-main .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .s-main .container .left {
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .s-main .container .left p {
+    margin-bottom: 3.5rem;
+  }
+
+  /* ===== S-CARDS===== */
+  .s-cards .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ===== S-CONTACT ===== */
+  .s-contact .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+}
